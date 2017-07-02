@@ -8,6 +8,7 @@ const html = `<!DOCTYPE html>
 		<link rel="stylesheet" type="text/css" href="./style/style.css">
 	</head>
 	<body>
+		<h1>Hello World</h1>
 		<div id="app"></div>
 	</body>
 	<script src="/bundle.js"></script>
