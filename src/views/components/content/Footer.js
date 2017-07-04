@@ -1,11 +1,12 @@
 import React from 'react'
+import './footer.scss'
 
 const Footer = (props) => {
 	return(
 		<footer>
-			This is Footer
+			<p>This is Footer</p>
 		</footer>
 	)
 }
 
-export { Footer }
+export { Footer }	

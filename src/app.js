@@ -10,11 +10,11 @@ import webpack from 'webpack'
 import webpackKoa from 'koa-webpack-dev-middleware'
 import webpackConfig from '../webpack.config'
 
-
 const app = new Koa()
 
 
 const compiler = webpack(webpackConfig)
+
 app.use(webpackKoa(compiler, {
 	noInfo: true,
 	publicPath: webpackConfig.output.publicPath	

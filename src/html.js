@@ -5,10 +5,8 @@ const html = `<!DOCTYPE html>
 		<base href="/">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="./style/style.css">
 	</head>
 	<body>
-		<h1>Hello World</h1>
 		<div id="app"></div>
 	</body>
 	<script src="/bundle.js"></script>
