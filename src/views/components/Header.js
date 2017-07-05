@@ -1,14 +1,16 @@
 import React from 'react'
-import './header.scss'
+import '../styles/header.scss'
 import AppBar from 'material-ui/AppBar';
 
 const Header = () => {
 	return(
-		<AppBar
-			title="Sex"
-			style={styles.appStyle}
-			titleStyle={styles.titleStyle}
-		/>
+		<div className="head">
+			<AppBar
+				title="Sex"
+				style={styles.appStyle}
+				titleStyle={styles.titleStyle}
+			/>
+		</div>
 	)
 }
 

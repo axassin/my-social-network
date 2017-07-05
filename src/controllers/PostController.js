@@ -6,6 +6,7 @@ const PostController = {
 	async list (ctx) {
 		const posts = await Post.find()
 		ctx.body = posts
+		return posts
 	},
 
 	create(ctx) {
