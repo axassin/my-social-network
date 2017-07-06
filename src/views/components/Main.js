@@ -1,16 +1,21 @@
 import React, { Component } from 'react'
 import RaisedButton from 'material-ui/RaisedButton';
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import PostIndex from './Post/PostIndex'
+import PostNew from './Post/PostNew'
 
 class Main extends Component {
 	render(){
-				return(
-			<div className="content">
-				<div className="content-inside">
-					<PostIndex />
-				</div>
+		return(
+			<BrowserRouter>
+			<div>
+				<Switch>
+					<Route path="/new" component={PostNew} />
+					<Route path="/" component={PostIndex} />
+				</Switch>
 			</div>
+			</BrowserRouter>
 		)
 	}
 
